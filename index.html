@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bénin Vert</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2E7D32">
+</head>
+
+<body>
+
+    <header class="top-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-title">
+                    <i class="fa-solid fa-leaf text-accent"></i>
+                    <span class="font-bold" style="color: var(--color-primary)">Bénin Vert</span>
+                </div>
+
+                <nav class="top-nav">
+                    <div class="nav-item active" data-target="home">
+                        <i class="fa-solid fa-house"></i>
+                        <span>Accueil</span>
+                    </div>
+                    <div class="nav-item" data-target="nurseries">
+                        <i class="fa-solid fa-leaf"></i>
+                        <span>Pépinières</span>
+                    </div>
+                    <div class="nav-item" data-target="plants">
+                        <i class="fa-solid fa-book-open"></i>
+                        <span>Plantes</span>
+                    </div>
+                    <div class="nav-item" data-target="account">
+                        <i class="fa-solid fa-user"></i>
+                        <span>Compte</span>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main id="app" class="container">
+        <!-- Content will be injected here by app.js -->
+    </main>
+
+    <script type="module" src="assets/js/app.js"></script>
+</body>
+
+</html>
